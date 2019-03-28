@@ -1,0 +1,1 @@
+set allSynthModules {DCM1.MOD clk_div_8388k.MOD d_ff.MOD shift_register.MOD shift_register_full.MOD}

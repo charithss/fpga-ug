@@ -1,0 +1,24 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do d_ff.ldo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.0a Compiler 2004.11 Nov 10 2004
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity d_ff
+# -- Compiling architecture behavioral of d_ff
+# vsim -t 1ps d_ff 
+# Loading C:\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading C:\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading work.d_ff(behavioral)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+force -freeze sim:/d_ff/d 0 0
+force -freeze sim:/d_ff/cclk 0 0
+run -all
+force -freeze sim:/d_ff/cclk 1 0
+run -all

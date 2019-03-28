@@ -1,0 +1,61 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\user\Desktop\SP_mini_ShiftRegister
+Ed_ff
+w1153994946
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dD:\VHDL Project\SP_mini_ShiftRegister
+FD_ff.vhd
+l0
+L30
+V`?@lbW1VTTJljN9aOcUKB0
+OX;C;6.0a;29
+31
+o-93 -explicit -O0
+tExplicit 1GenerateLoopIterationMax 100000
+Abehavioral
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work d_ff `?@lbW1VTTJljN9aOcUKB0
+l38
+L36
+V?T4:d>4@_Tm5omNdn[J;M3
+OX;C;6.0a;29
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-93 -explicit -O0
+tExplicit 1GenerateLoopIterationMax 100000
+Eshift_register
+w1153995148
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Fshift_register.vhd
+l0
+L30
+VOSRoOMi0Rl0Dm`?7;fV7W1
+OX;C;6.0d;29
+31
+o-93 -explicit -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Adataflow
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work shift_register OSRoOMi0Rl0Dm`?7;fV7W1
+l47
+L37
+V9bGfodB2bn<P4QXHh04MR0
+OX;C;6.0d;29
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-93 -explicit -O0
+tExplicit 1 GenerateLoopIterationMax 100000

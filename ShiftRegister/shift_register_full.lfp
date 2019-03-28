@@ -1,0 +1,6 @@
+# begin LFP file C:\Documents and Settings\user\Desktop\SP_mini_ShiftRegister\shift_register_full.lfp
+designfile Shift_Register_Full.vhd
+parttype xc3s400-5-pq208
+bus_delimiter 0;
+set_busdelim_onsave 1;
+INST "Shift_Register_Full" COLOR=15  ;
