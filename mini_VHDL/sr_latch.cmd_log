@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn __projnav/sr_latch.xst -ofn sr_latch.syr
+xst -intstyle ise -ifn __projnav/sr_latch.xst -ofn sr_latch.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo" -i  -p xc3s400-pq208-4 sr_latch.ngc sr_latch.ngd
+ngdbuild -intstyle ise -dd "c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf  -p xc3s400-pq208-4 sr_latch.ngc sr_latch.ngd
+map -intstyle ise -p xc3s400-pq208-4 -cm area -pr b -k 4 -c 100 -o sr_latch_map.ncd sr_latch.ngd sr_latch.pcf
+par -w -intstyle ise -ol std -t 1 sr_latch_map.ncd sr_latch.ncd sr_latch.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml sr_latch sr_latch.ncd -o sr_latch.twr sr_latch.pcf
+bitgen -intstyle ise -f sr_latch.ut sr_latch.ncd
+xst -intstyle ise -ifn __projnav/sr_latch.xst -ofn sr_latch.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf  -p xc3s400-pq208-4 sr_latch.ngc sr_latch.ngd
+map -intstyle ise -p xc3s400-pq208-4 -cm area -pr b -k 4 -c 100 -o sr_latch_map.ncd sr_latch.ngd sr_latch.pcf
+par -w -intstyle ise -ol std -t 1 sr_latch_map.ncd sr_latch.ncd sr_latch.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml sr_latch sr_latch.ncd -o sr_latch.twr sr_latch.pcf
+bitgen -intstyle ise -f sr_latch.ut sr_latch.ncd
+xst -intstyle ise -ifn __projnav/sr_latch.xst -ofn sr_latch.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf  -p xc3s400-pq208-4 sr_latch.ngc sr_latch.ngd
+map -intstyle ise -p xc3s400-pq208-4 -cm area -pr b -k 4 -c 100 -o sr_latch_map.ncd sr_latch.ngd sr_latch.pcf
+par -w -intstyle ise -ol std -t 1 sr_latch_map.ncd sr_latch.ncd sr_latch.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml sr_latch sr_latch.ncd -o sr_latch.twr sr_latch.pcf
+bitgen -intstyle ise -f sr_latch.ut sr_latch.ncd
+xst -intstyle ise -ifn __projnav/sr_latch.xst -ofn sr_latch.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf  -p xc3s400-pq208-4 sr_latch.ngc sr_latch.ngd
+map -intstyle ise -p xc3s400-pq208-4 -cm area -pr b -k 4 -c 100 -o sr_latch_map.ncd sr_latch.ngd sr_latch.pcf
+par -w -intstyle ise -ol std -t 1 sr_latch_map.ncd sr_latch.ncd sr_latch.pcf
+trce -intstyle ise -e 3 -l 3 -s 4 -xml sr_latch sr_latch.ncd -o sr_latch.twr sr_latch.pcf
+bitgen -intstyle ise -f sr_latch.ut sr_latch.ncd

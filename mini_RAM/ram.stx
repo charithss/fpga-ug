@@ -1,0 +1,29 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+CPU : 0.00 / 0.28 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" in Library work.
+Architecture data_flow of Entity decoder is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" in Library work.
+Entity <binary_cell> compiled.
+Entity <binary_cell> (Architecture <data_flow>) compiled.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" in Library work.
+Entity <RAM> compiled.
+Entity <RAM> (Architecture <data_flow>) compiled.
+CPU : 0.11 / 0.39 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 76760 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

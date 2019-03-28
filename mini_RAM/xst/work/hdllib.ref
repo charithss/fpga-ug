@@ -1,0 +1,8 @@
+AR decoder data_flow "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" sub00/vhpl03 1153908089
+EN sr_latch NULL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" sub00/vhpl00 1153908086
+AR sr_latch data_flow "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" sub00/vhpl01 1153908087
+AR binary_cell data_flow "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" sub00/vhpl05 1153908091
+AR ram data_flow "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" sub00/vhpl07 1153908093
+EN binary_cell NULL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" sub00/vhpl04 1153908090
+EN ram NULL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" sub00/vhpl06 1153908092
+EN decoder NULL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" sub00/vhpl02 1153908088

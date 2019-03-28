@@ -1,0 +1,33 @@
+# Reading C:/Program Files/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do sr_latch.ldo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.0d Compiler 2005.04 Apr 26 2005
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity sr_latch
+# -- Compiling architecture data_flow of sr_latch
+# ** Warning: [4] sr_latch.vhd(40): A space is required between a number and an identifier.
+# ** Warning: [4] sr_latch.vhd(41): A space is required between a number and an identifier.
+# vsim -t 1ps sr_latch 
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading work.sr_latch(data_flow)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+force -freeze sim:/sr_latch/s 0 0
+force -freeze sim:/sr_latch/r 0 0
+run -all
+run -all
+force -freeze sim:/sr_latch/s 1 0
+force -freeze sim:/sr_latch/r 1 0
+run -all
+# Break key hit 
+# Simulation stop requested.
+run -all
+# Break key hit 
+# Simulation stop requested.

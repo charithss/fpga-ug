@@ -1,0 +1,31 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do comparator_store.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0d Compiler 2005.04 Apr 26 2005
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# Model Technology ModelSim XE III vlog 6.0d Compiler 2005.04 Apr 26 2005
+# -- Compiling module comparator_store
+# 
+# Top level modules:
+# 	comparator_store
+# Model Technology ModelSim XE III vlog 6.0d Compiler 2005.04 Apr 26 2005
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps comparator_store glbl 
+# Licensing checkout error with feature xe-starter. (Error code -9.)
+# The hostid of the license does not match the hostid for this machine.
+# One of the following is likely:
+#    -The license is intended for another machine.
+#    -A dongle is not plugged into this machine.
+#    -The dongle driver is not installed or is not functioning properly.
+#    -The hostid mechanism has been changed or removed from this machine.
+# ** Error: Failure to obtain a Verilog simulation license.
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./comparator_store.fdo PAUSED at line 8

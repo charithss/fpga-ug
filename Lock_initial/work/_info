@@ -1,0 +1,37 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\Charith Fernando\Desktop\Lock
+vcomparator
+IFA<>D`O:=>=DCVDJS=9041
+VGRYDnmUJYA^P_V1a0f>gE1
+w1170420850
+Fcomparator.v
+L0 21
+OX;L;6.0d;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vcomparator_store
+I7;UkF@k:c`5A>W21?egMB2
+VGMBTQzW0V36R=ZbT7jZ?B2
+w1170421507
+Fcomparator_store.v
+L0 21
+OX;L;6.0d;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+w1147889348
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0d;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

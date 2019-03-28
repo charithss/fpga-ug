@@ -1,0 +1,70 @@
+--------------------------------------------------------------------------------
+Release 7.1i Trace H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:/Program Files/Xilinx/bin/nt/trce.exe -ise
+c:\documents and settings\user\desktop\sp_mini_vhdl\SR_Latch_sp.ise -intstyle
+ise -e 3 -l 3 -s 4 -xml sr_latch sr_latch.ncd -o sr_latch.twr sr_latch.pcf
+
+
+Design file:              sr_latch.ncd
+Physical constraint file: sr_latch.pcf
+Device,speed:             xc3s400,-4 (PRODUCTION 1.35 2005-01-22)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock R
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+S           |   -1.587(R)|    4.260(R)|R_BUFGP           |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock R to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+Q           |   14.336(R)|R_BUFGP           |   0.000|
+Q_bar       |   14.743(R)|R_BUFGP           |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock R
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+R              |    3.454|    3.454|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+R              |Q              |   14.162|
+R              |Q_bar          |   16.568|
+S              |Q              |    9.464|
+S              |Q_bar          |   11.527|
+---------------+---------------+---------+
+
+Analysis completed Tue Jul 25 15:54:04 2006
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 84 MB

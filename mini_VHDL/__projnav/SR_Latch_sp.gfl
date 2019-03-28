@@ -1,0 +1,518 @@
+# xst flow : RunXST
+sr_latch_summary.html
+# VHDL : Create Schematic Symbol
+__projnav/tb.rsp
+__projnav/vhd2spl.err
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+# xst flow : RunXST
+sr_latch_summary.html
+# xst flow : RunXST
+sr_latch.syr
+sr_latch.prj
+sr_latch.sprj
+sr_latch.ana
+sr_latch.stx
+sr_latch.cmd_log
+sr_latch.ngr
+# View RTL Schematic
+sr_latch.ngr
+sr_latch.ngc
+# xst flow : RunXST
+sr_latch_summary.html
+# xst flow : RunXST
+sr_latch.syr
+sr_latch.prj
+sr_latch.sprj
+sr_latch.ana
+sr_latch.stx
+sr_latch.cmd_log
+sr_latch.ngc
+sr_latch.ngr
+# View Technology Schematic
+sr_latch.ngr
+sr_latch.ngc
+# VHDL : Create Schematic Symbol
+__projnav/tb.rsp
+__projnav/vhd2spl.err
+# ModelSim : Launch ModelSim Simulator
+sr_latch.ldo
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo"
+sr_latch.ngd
+sr_latch_ngdbuild.nav
+sr_latch.bld
+.untf
+sr_latch.cmd_log
+# Create Timing Constraints
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo"
+sr_latch.ngd
+sr_latch_ngdbuild.nav
+sr_latch.bld
+sr_latch.ucf.untf
+sr_latch.cmd_log
+# Implementation : Map
+sr_latch_summary.html
+# Implementation : Map
+sr_latch_map.ncd
+sr_latch.ngm
+sr_latch.pcf
+sr_latch.nc1
+sr_latch.mrp
+sr_latch_map.mrp
+sr_latch.mdf
+sr_latch.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sr_latch"
+sr_latch_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sr_latch.twr
+sr_latch.twx
+sr_latch.tsi
+sr_latch.cmd_log
+# Implementation : Place & Route
+sr_latch_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sr_latch.ncd
+sr_latch.par
+sr_latch.pad
+sr_latch_pad.txt
+sr_latch_pad.csv
+sr_latch.pad_txt
+sr_latch.dly
+reportgen.log
+sr_latch.xpi
+sr_latch.grf
+sr_latch.itr
+sr_latch_last_par.ncd
+sr_latch.placed_ncd_tracker
+sr_latch.routed_ncd_tracker
+sr_latch.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sr_latch"
+# Generate Programming File
+__projnav/sr_latch_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sr_latch.ut
+# Programming File Generation Report
+sr_latch.bgn
+sr_latch.rbt
+sr_latch.ll
+sr_latch.msk
+sr_latch.drc
+sr_latch.nky
+sr_latch.bit
+sr_latch.bin
+sr_latch.isc
+sr_latch.cmd_log
+# Configure Device (iMPACT)
+sr_latch.prm
+sr_latch.isc
+sr_latch.svf
+xilinx.sys
+sr_latch.mcs
+sr_latch.exo
+sr_latch.hex
+sr_latch.tek
+sr_latch.dst
+sr_latch.dst_compressed
+sr_latch.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sr_latch.prm
+sr_latch.isc
+sr_latch.svf
+xilinx.sys
+sr_latch.mcs
+sr_latch.exo
+sr_latch.hex
+sr_latch.tek
+sr_latch.dst
+sr_latch.dst_compressed
+sr_latch.mpm
+_impact.cmd
+_impact.log
+# Generate PROM, ACE, or JTAG File
+sr_latch.ace
+xilinx.sys
+sr_latch.mpm
+sr_latch.mcs
+sr_latch.prm
+sr_latch.dst
+sr_latch.exo
+sr_latch.tek
+sr_latch.hex
+sr_latch.svf
+sr_latch.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+sr_latch.ace
+xilinx.sys
+sr_latch.mpm
+sr_latch.mcs
+sr_latch.prm
+sr_latch.dst
+sr_latch.exo
+sr_latch.tek
+sr_latch.hex
+sr_latch.svf
+sr_latch.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Configure Device (iMPACT)
+sr_latch.prm
+sr_latch.isc
+sr_latch.svf
+xilinx.sys
+sr_latch.mcs
+sr_latch.exo
+sr_latch.hex
+sr_latch.tek
+sr_latch.dst
+sr_latch.dst_compressed
+sr_latch.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+sr_latch.prm
+sr_latch.isc
+sr_latch.svf
+xilinx.sys
+sr_latch.mcs
+sr_latch.exo
+sr_latch.hex
+sr_latch.tek
+sr_latch.dst
+sr_latch.dst_compressed
+sr_latch.mpm
+_impact.cmd
+_impact.log
+# View Technology Schematic
+sr_latch.ngr
+sr_latch.ngc
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# xst flow : RunXST
+sr_latch_summary.html
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# xst flow : RunXST
+sr_latch_summary.html
+# xst flow : RunXST
+sr_latch.syr
+sr_latch.prj
+sr_latch.sprj
+sr_latch.ana
+sr_latch.stx
+sr_latch.cmd_log
+sr_latch.ngc
+sr_latch.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo"
+sr_latch.ngd
+sr_latch_ngdbuild.nav
+sr_latch.bld
+sr_latch.ucf.untf
+sr_latch.cmd_log
+# Implementation : Map
+sr_latch_summary.html
+# Implementation : Map
+sr_latch_map.ncd
+sr_latch.ngm
+sr_latch.pcf
+sr_latch.nc1
+sr_latch.mrp
+sr_latch_map.mrp
+sr_latch.mdf
+sr_latch.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sr_latch"
+sr_latch_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sr_latch.twr
+sr_latch.twx
+sr_latch.tsi
+sr_latch.cmd_log
+# Implementation : Place & Route
+sr_latch_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sr_latch.ncd
+sr_latch.par
+sr_latch.pad
+sr_latch_pad.txt
+sr_latch_pad.csv
+sr_latch.pad_txt
+sr_latch.dly
+reportgen.log
+sr_latch.xpi
+sr_latch.grf
+sr_latch.itr
+sr_latch_last_par.ncd
+sr_latch.placed_ncd_tracker
+sr_latch.routed_ncd_tracker
+sr_latch.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sr_latch"
+# Generate Programming File
+__projnav/sr_latch_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sr_latch.ut
+# Generate Programming File
+sr_latch.bgn
+sr_latch.rbt
+sr_latch.ll
+sr_latch.msk
+sr_latch.drc
+sr_latch.nky
+sr_latch.bit
+sr_latch.bin
+sr_latch.isc
+sr_latch.cmd_log
+# Configure Device (iMPACT)
+sr_latch.prm
+sr_latch.isc
+sr_latch.svf
+xilinx.sys
+sr_latch.mcs
+sr_latch.exo
+sr_latch.hex
+sr_latch.tek
+sr_latch.dst
+sr_latch.dst_compressed
+sr_latch.mpm
+_impact.cmd
+_impact.log
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# xst flow : RunXST
+sr_latch_summary.html
+# xst flow : RunXST
+sr_latch.syr
+sr_latch.prj
+sr_latch.sprj
+sr_latch.ana
+sr_latch.stx
+sr_latch.cmd_log
+sr_latch.ngc
+sr_latch.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo"
+sr_latch.ngd
+sr_latch_ngdbuild.nav
+sr_latch.bld
+sr_latch.ucf.untf
+sr_latch.cmd_log
+# Implementation : Map
+sr_latch_summary.html
+# Implementation : Map
+sr_latch_map.ncd
+sr_latch.ngm
+sr_latch.pcf
+sr_latch.nc1
+sr_latch.mrp
+sr_latch_map.mrp
+sr_latch.mdf
+sr_latch.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sr_latch"
+sr_latch_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sr_latch.twr
+sr_latch.twx
+sr_latch.tsi
+sr_latch.cmd_log
+# Implementation : Place & Route
+sr_latch_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sr_latch.ncd
+sr_latch.par
+sr_latch.pad
+sr_latch_pad.txt
+sr_latch_pad.csv
+sr_latch.pad_txt
+sr_latch.dly
+reportgen.log
+sr_latch.xpi
+sr_latch.grf
+sr_latch.itr
+sr_latch_last_par.ncd
+sr_latch.placed_ncd_tracker
+sr_latch.routed_ncd_tracker
+sr_latch.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sr_latch"
+# Generate Programming File
+__projnav/sr_latch_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sr_latch.ut
+# Generate Programming File
+sr_latch.bgn
+sr_latch.rbt
+sr_latch.ll
+sr_latch.msk
+sr_latch.drc
+sr_latch.nky
+sr_latch.bit
+sr_latch.bin
+sr_latch.isc
+sr_latch.cmd_log
+# XST (Creating Lso File) : 
+sr_latch.lso
+# xst flow : RunXST
+sr_latch_summary.html
+# xst flow : RunXST
+sr_latch.syr
+sr_latch.prj
+sr_latch.sprj
+sr_latch.ana
+sr_latch.stx
+sr_latch.cmd_log
+sr_latch.ngc
+sr_latch.ngr
+# View RTL Schematic
+sr_latch.ngr
+sr_latch.ngc
+# View Technology Schematic
+sr_latch.ngr
+sr_latch.ngc
+# View Technology Schematic
+sr_latch.ngr
+sr_latch.ngc
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\user\desktop\sp_mini_vhdl/_ngo"
+sr_latch.ngd
+sr_latch_ngdbuild.nav
+sr_latch.bld
+sr_latch.ucf.untf
+sr_latch.cmd_log
+# Implementation : Map
+sr_latch_summary.html
+# Implementation : Map
+sr_latch_map.ncd
+sr_latch.ngm
+sr_latch.pcf
+sr_latch.nc1
+sr_latch.mrp
+sr_latch_map.mrp
+sr_latch.mdf
+sr_latch.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sr_latch"
+sr_latch_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sr_latch.twr
+sr_latch.twx
+sr_latch.tsi
+sr_latch.cmd_log
+# Implementation : Place & Route
+sr_latch_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sr_latch.ncd
+sr_latch.par
+sr_latch.pad
+sr_latch_pad.txt
+sr_latch_pad.csv
+sr_latch.pad_txt
+sr_latch.dly
+reportgen.log
+sr_latch.xpi
+sr_latch.grf
+sr_latch.itr
+sr_latch_last_par.ncd
+sr_latch.placed_ncd_tracker
+sr_latch.routed_ncd_tracker
+sr_latch.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sr_latch"
+# Generate Programming File
+__projnav/sr_latch_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sr_latch.ut
+# Generate Programming File
+sr_latch.bgn
+sr_latch.rbt
+sr_latch.ll
+sr_latch.msk
+sr_latch.drc
+sr_latch.nky
+sr_latch.bit
+sr_latch.bin
+sr_latch.isc
+sr_latch.cmd_log
+# Configure Device (iMPACT)
+sr_latch.prm
+sr_latch.isc
+sr_latch.svf
+xilinx.sys
+sr_latch.mcs
+sr_latch.exo
+sr_latch.hex
+sr_latch.tek
+sr_latch.dst
+sr_latch.dst_compressed
+sr_latch.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sr_latch_summary.html

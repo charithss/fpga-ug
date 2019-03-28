@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn __projnav/sr_latch.xst -ofn sr_latch.syr
+xst -intstyle ise -ifn __projnav/sr_latch.xst -ofn sr_latch.syr

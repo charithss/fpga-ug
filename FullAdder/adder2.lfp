@@ -1,0 +1,14 @@
+# begin LFP file C:\Documents and Settings\user\Desktop\FullAdder\adder2.lfp
+designfile Adder2.vhd
+parttype xc3s400-5-pq208
+bus_delimiter 0;
+set_busdelim_onsave 1;
+IO_GROUP "A"  ;
+IO_GROUP "B"  ;
+IO_GROUP "S"  ;
+NET "A<1>" IO_GROUP="A"  ;
+NET "A<0>" IO_GROUP="A"  ;
+NET "B<1>" IO_GROUP="B"  ;
+NET "B<0>" IO_GROUP="B"  ;
+NET "S<1>" IO_GROUP="S"  ;
+NET "S<0>" IO_GROUP="S"  ;

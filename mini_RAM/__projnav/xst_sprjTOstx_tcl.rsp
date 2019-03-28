@@ -1,0 +1,1 @@
+set allSynthModules {decoder.MOD sr_latch.MOD binary_cell.MOD ram.MOD}

@@ -1,0 +1,1720 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file "C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+ERROR:HDLParsers:1411 - "C:/Documents and
+   Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 40. Parameter Q of mode
+   out can not be associated with a formal parameter of mode in.
+ERROR:HDLParsers:1411 - "C:/Documents and
+   Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 41. Parameter Q_bar of
+   mode out can not be associated with a formal parameter of mode in.
+tdtfi(vhdl) completed successfully.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+ERROR:HDLParsers:1411 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 40. Parameter Q of mode out can not be associated with a formal parameter of mode in.
+ERROR:HDLParsers:1411 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 41. Parameter Q_bar of mode out can not be associated with a formal parameter of mode in.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <data_flow>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+ERROR:HDLParsers:1411 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 40. Parameter Q of mode out can not be associated with a formal parameter of mode in.
+ERROR:HDLParsers:1411 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 41. Parameter Q_bar of mode out can not be associated with a formal parameter of mode in.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <data_flow>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sr_latch> (Architecture <data_flow>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd".
+Unit <sr_latch> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sr_latch> (Architecture <data_flow>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd".
+Unit <sr_latch> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit sr_latch : the following signal(s) form a combinatorial loop: Q_bar, Q.
+
+Optimizing unit <sr_latch> ...
+Loading device for application Rf_Device from file '3s400.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sr_latch, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of Slices:                       1  out of   3584     0%  
+ Number of 4 input LUTs:                 2  out of   7168     0%  
+ Number of bonded IOBs:                  4  out of    141     2%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 10.656ns
+
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Create Schematic Symbol".
+
+Compiling vhdl file "C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <data_flow>) compiled.
+tdtfi(vhdl) completed successfully.
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd "c:\documents and
+settings\user\desktop\sp_mini_vhdl/_ngo" -i -p xc3s400-pq208-4 sr_latch.ngc
+sr_latch.ngd 
+
+Reading NGO file 'C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sr_latch.ngd" ...
+
+Writing NGDBUILD log file "sr_latch.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd "c:\documents and
+settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf -p xc3s400-pq208-4
+sr_latch.ngc sr_latch.ngd 
+
+Reading NGO file 'C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.ngc' ...
+
+Applying constraints in "sr_latch.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sr_latch.ngd" ...
+
+Writing NGDBUILD log file "sr_latch.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s400pq208-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:               2 out of   7,168    1%
+Logic Distribution:
+  Number of occupied Slices:                            2 out of   3,584    1%
+    Number of Slices containing only related logic:       2 out of       2  100%
+    Number of Slices containing unrelated logic:          0 out of       2    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:           2 out of   7,168    1%
+  Number of bonded IOBs:                4 out of     141    2%
+
+Total equivalent gate count for design:  12
+Additional JTAG gate count for IOBs:  192
+Peak Memory Usage:  108 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sr_latch_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sr_latch.pcf.
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.35 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of External IOBs             4 out of 141     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+   Number of Slices                    2 out of 3584    1%
+      Number of SLICEMs                0 out of 1792    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968b) REAL time: 1 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 1 secs 
+
+Phase 3.2
+
+
+Phase 3.2 (Checksum:1c9c37d) REAL time: 1 secs 
+
+Phase 4.8
+.
+Phase 4.8 (Checksum:989d0f) REAL time: 1 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 1 secs 
+
+Phase 6.18
+Phase 6.18 (Checksum:39386fa) REAL time: 1 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 1 secs 
+
+Writing design to file sr_latch.ncd
+
+
+Total REAL time to Placer completion: 1 secs 
+Total CPU time to Placer completion: 1 secs 
+
+Starting Router
+
+Phase 1: 6 unrouted;       REAL time: 1 secs 
+
+Phase 2: 6 unrouted;       REAL time: 1 secs 
+
+Phase 3: 0 unrouted;       REAL time: 1 secs 
+
+Phase 4: 0 unrouted;       REAL time: 1 secs 
+
+
+Total REAL time to Router completion: 1 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  76 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sr_latch.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Analysis completed Tue Jul 25 14:39:10 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 1 secs 
+
+
+
+
+
+
+
+Started process "Programming File Generation Report".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+ERROR:HDLParsers:3402 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 52. Read symbol =, expecting <= or := 
+ERROR:HDLParsers:164 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 57. parse error, unexpected END, expecting SEMICOLON
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <behav>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Architecture behav of Entity sr_latch is up to date.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Architecture behav of Entity sr_latch is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sr_latch> (Architecture <behav>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd".
+WARNING:Xst:1778 - Inout <Q> is assigned but never used.
+WARNING:Xst:1778 - Inout <Q_bar> is assigned but never used.
+WARNING:Xst:737 - Found 1-bit latch for signal <Q>.
+WARNING:Xst:737 - Found 1-bit latch for signal <Q_bar>.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0003>.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <sr_latch> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                          : 2
+ 1-bit latch                       : 2
+# Multiplexers                     : 1
+ 1-bit 4-to-1 multiplexer          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sr_latch> ...
+Loading device for application Rf_Device from file '3s400.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sr_latch, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of Slices:                       2  out of   3584     0%  
+ Number of Slice Flip Flops:             2  out of   7168     0%  
+ Number of 4 input LUTs:                 2  out of   7168     0%  
+ Number of bonded IOBs:                  4  out of    141     2%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+R                                  | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.677ns
+   Maximum output required time after clock: 7.078ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd "c:\documents and
+settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf -p xc3s400-pq208-4
+sr_latch.ngc sr_latch.ngd 
+
+Reading NGO file 'C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.ngc' ...
+
+Applying constraints in "sr_latch.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sr_latch.ngd" ...
+
+Writing NGDBUILD log file "sr_latch.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s400pq208-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:               2 out of   7,168    1%
+Logic Distribution:
+  Number of occupied Slices:                            1 out of   3,584    1%
+    Number of Slices containing only related logic:       1 out of       1  100%
+    Number of Slices containing unrelated logic:          0 out of       1    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:           2 out of   7,168    1%
+  Number of bonded IOBs:                4 out of     141    2%
+    IOB Latches:                        2
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  25
+Additional JTAG gate count for IOBs:  192
+Peak Memory Usage:  108 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sr_latch_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sr_latch.pcf.
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.35 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 8      12%
+   Number of External IOBs             4 out of 141     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+   Number of Slices                    1 out of 3584    1%
+      Number of SLICEMs                0 out of 1792    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:989691) REAL time: 1 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 1 secs 
+
+Phase 3.2
+.....
+.....
+
+
+Phase 3.2 (Checksum:98b503) REAL time: 1 secs 
+
+Phase 4.8
+.
+Phase 4.8 (Checksum:98a9b7) REAL time: 1 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 1 secs 
+
+Phase 6.18
+Phase 6.18 (Checksum:39386fa) REAL time: 1 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 1 secs 
+
+Writing design to file sr_latch.ncd
+
+
+Total REAL time to Placer completion: 1 secs 
+Total CPU time to Placer completion: 1 secs 
+
+Starting Router
+
+Phase 1: 13 unrouted;       REAL time: 1 secs 
+
+Phase 2: 11 unrouted;       REAL time: 1 secs 
+
+Phase 3: 2 unrouted;       REAL time: 1 secs 
+
+Phase 4: 0 unrouted;       REAL time: 1 secs 
+
+
+WARNING:CLK Net:R_BUFGP
+may have excessive skew because 2 NON-CLK pins
+failed to route using a CLK template.
+
+Total REAL time to Router completion: 1 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|             R_BUFGP |      BUFGMUX7| No   |    4 |  0.000     |  1.054      |
++---------------------+--------------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  76 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sr_latch.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Analysis completed Tue Jul 25 15:27:07 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 1 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+ERROR:HDLParsers:410 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 52. Variable 'Q_temp' Q_temp is at left hand side of signal assignment statement.
+ERROR:HDLParsers:410 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 53. Variable 'Q_bar_temp' Q_bar_temp is at left hand side of signal assignment statement.
+ERROR:HDLParsers:410 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 55. Variable 'Q_temp' Q_temp is at left hand side of signal assignment statement.
+ERROR:HDLParsers:410 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 56. Variable 'Q_bar_temp' Q_bar_temp is at left hand side of signal assignment statement.
+ERROR:HDLParsers:3312 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 61. Undefined symbol 'Q_temp'.
+ERROR:HDLParsers:1209 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 61. Q_temp: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 62. Undefined symbol 'Q_bar_temp'.
+ERROR:HDLParsers:1209 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 62. Q_bar_temp: Undefined symbol (last report in this block)
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+ERROR:HDLParsers:3312 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 61. Undefined symbol 'Q_temp'.
+ERROR:HDLParsers:1209 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 61. Q_temp: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 62. Undefined symbol 'Q_bar_temp'.
+ERROR:HDLParsers:1209 - "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" Line 62. Q_bar_temp: Undefined symbol (last report in this block)
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <behav>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Architecture behav of Entity sr_latch is up to date.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Architecture behav of Entity sr_latch is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sr_latch> (Architecture <behav>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <Q_bar_temp>.
+WARNING:Xst:737 - Found 1-bit latch for signal <Q_temp>.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0003> created at line 42.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0004> created at line 42.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0005>.
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <sr_latch> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                          : 2
+ 1-bit latch                       : 2
+# Multiplexers                     : 3
+ 1-bit 4-to-1 multiplexer          : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sr_latch> ...
+Loading device for application Rf_Device from file '3s400.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sr_latch, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of Slices:                       3  out of   3584     0%  
+ Number of Slice Flip Flops:             2  out of   7168     0%  
+ Number of 4 input LUTs:                 4  out of   7168     0%  
+ Number of bonded IOBs:                  4  out of    141     2%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+R                                  | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.691ns
+   Maximum output required time after clock: 8.498ns
+   Maximum combinational path delay: 9.077ns
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd "c:\documents and
+settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf -p xc3s400-pq208-4
+sr_latch.ngc sr_latch.ngd 
+
+Reading NGO file 'C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.ngc' ...
+
+Applying constraints in "sr_latch.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sr_latch.ngd" ...
+
+Writing NGDBUILD log file "sr_latch.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s400pq208-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Latches:              2 out of   7,168    1%
+  Number of 4 input LUTs:               4 out of   7,168    1%
+Logic Distribution:
+  Number of occupied Slices:                            3 out of   3,584    1%
+    Number of Slices containing only related logic:       3 out of       3  100%
+    Number of Slices containing unrelated logic:          0 out of       3    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:           4 out of   7,168    1%
+  Number of bonded IOBs:                4 out of     141    2%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  37
+Additional JTAG gate count for IOBs:  192
+Peak Memory Usage:  108 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sr_latch_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sr_latch.pcf.
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.35 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 8      12%
+   Number of External IOBs             4 out of 141     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+   Number of Slices                    3 out of 3584    1%
+      Number of SLICEMs                0 out of 1792    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:989697) REAL time: 1 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 1 secs 
+
+Phase 3.2
+.....
+.....
+
+
+Phase 3.2 (Checksum:98b503) REAL time: 1 secs 
+
+Phase 4.8
+.
+Phase 4.8 (Checksum:98b0bf) REAL time: 1 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 1 secs 
+
+Phase 6.18
+Phase 6.18 (Checksum:39386fa) REAL time: 1 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 1 secs 
+
+Writing design to file sr_latch.ncd
+
+
+Total REAL time to Placer completion: 1 secs 
+Total CPU time to Placer completion: 1 secs 
+
+Starting Router
+
+Phase 1: 20 unrouted;       REAL time: 1 secs 
+
+Phase 2: 18 unrouted;       REAL time: 1 secs 
+
+Phase 3: 5 unrouted;       REAL time: 1 secs 
+
+Phase 4: 0 unrouted;       REAL time: 1 secs 
+
+
+WARNING:CLK Net:R_BUFGP
+may have excessive skew because 4 NON-CLK pins
+failed to route using a CLK template.
+
+Total REAL time to Router completion: 1 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|             R_BUFGP |      BUFGMUX7| No   |    6 |  0.000     |  1.014      |
++---------------------+--------------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  76 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sr_latch.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Analysis completed Tue Jul 25 15:52:27 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 1 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" in Library work.
+Architecture behav of Entity sr_latch is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sr_latch> (Architecture <behav>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <Q_bar_temp>.
+WARNING:Xst:737 - Found 1-bit latch for signal <Q_temp>.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0003> created at line 42.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0004> created at line 42.
+    Found 1-bit 4-to-1 multiplexer for signal <$n0005>.
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <sr_latch> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                          : 2
+ 1-bit latch                       : 2
+# Multiplexers                     : 3
+ 1-bit 4-to-1 multiplexer          : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sr_latch> ...
+Loading device for application Rf_Device from file '3s400.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sr_latch, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-4 
+
+ Number of Slices:                       3  out of   3584     0%  
+ Number of Slice Flip Flops:             2  out of   7168     0%  
+ Number of 4 input LUTs:                 4  out of   7168     0%  
+ Number of bonded IOBs:                  4  out of    141     2%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+R                                  | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 2.691ns
+   Maximum output required time after clock: 8.498ns
+   Maximum combinational path delay: 9.077ns
+
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd "c:\documents and
+settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf -p xc3s400-pq208-4
+sr_latch.ngc sr_latch.ngd 
+
+Reading NGO file 'C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.ngc' ...
+
+Applying constraints in "sr_latch.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sr_latch.ngd" ...
+
+Writing NGDBUILD log file "sr_latch.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "3s400pq208-4".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Latches:              2 out of   7,168    1%
+  Number of 4 input LUTs:               4 out of   7,168    1%
+Logic Distribution:
+  Number of occupied Slices:                            3 out of   3,584    1%
+    Number of Slices containing only related logic:       3 out of       3  100%
+    Number of Slices containing unrelated logic:          0 out of       3    0%
+      *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:           4 out of   7,168    1%
+  Number of bonded IOBs:                4 out of     141    2%
+  Number of GCLKs:                     1 out of       8   12%
+
+Total equivalent gate count for design:  37
+Additional JTAG gate count for IOBs:  192
+Peak Memory Usage:  108 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sr_latch_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sr_latch.pcf.
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000
+Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.35 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                  1 out of 8      12%
+   Number of External IOBs             4 out of 141     2%
+      Number of LOCed IOBs             4 out of 4     100%
+
+   Number of Slices                    3 out of 3584    1%
+      Number of SLICEMs                0 out of 1792    0%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:989697) REAL time: 1 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 1 secs 
+
+Phase 3.2
+.....
+.....
+
+
+Phase 3.2 (Checksum:98b503) REAL time: 1 secs 
+
+Phase 4.8
+.
+Phase 4.8 (Checksum:98b0bf) REAL time: 1 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 1 secs 
+
+Phase 6.18
+Phase 6.18 (Checksum:39386fa) REAL time: 1 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 1 secs 
+
+Writing design to file sr_latch.ncd
+
+
+Total REAL time to Placer completion: 1 secs 
+Total CPU time to Placer completion: 1 secs 
+
+Starting Router
+
+Phase 1: 20 unrouted;       REAL time: 1 secs 
+
+Phase 2: 18 unrouted;       REAL time: 1 secs 
+
+Phase 3: 5 unrouted;       REAL time: 1 secs 
+
+Phase 4: 0 unrouted;       REAL time: 1 secs 
+
+
+WARNING:CLK Net:R_BUFGP
+may have excessive skew because 4 NON-CLK pins
+failed to route using a CLK template.
+
+Total REAL time to Router completion: 1 secs 
+Total CPU time to Router completion: 1 secs 
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|             R_BUFGP |      BUFGMUX7| No   |    6 |  0.000     |  1.014      |
++---------------------+--------------+------+------+------------+-------------+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  76 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sr_latch.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file '3s400.nph' in environment
+C:/Program Files/Xilinx.
+   "sr_latch" is an NCD, version 3.1, device xc3s400, package pq208, speed -4
+
+Analysis completed Tue Jul 25 15:54:04 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 1 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+

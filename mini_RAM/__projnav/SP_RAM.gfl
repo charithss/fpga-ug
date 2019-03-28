@@ -1,0 +1,106 @@
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+# xst flow : RunXST
+sr_latch_summary.html
+# xst flow : RunXST
+sr_latch.syr
+sr_latch.prj
+sr_latch.sprj
+sr_latch.ana
+sr_latch.stx
+sr_latch.cmd_log
+sr_latch.ngr
+# View RTL Schematic
+sr_latch.ngr
+sr_latch.ngc
+# XST (Creating Lso File) : 
+sr_latch.lso
+# xst flow : RunXST
+sr_latch_summary.html
+# xst flow : RunXST
+sr_latch.syr
+sr_latch.prj
+sr_latch.sprj
+sr_latch.ana
+sr_latch.stx
+sr_latch.cmd_log
+sr_latch.ngc
+sr_latch.ngr
+# View Technology Schematic
+sr_latch.ngr
+sr_latch.ngc
+# ModelSim : Launch ModelSim Simulator
+sr_latch.ldo
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# ModelSim : Launch ModelSim Simulator
+sr_latch.ldo
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# XST (Creating Lso File) : 
+sr_latch.lso
+# Check Syntax
+sr_latch.stx
+sr_latch.ngc
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# ModelSim : Launch ModelSim Simulator
+binary_cell.ldo
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# XST (Creating Lso File) : 
+decoder.lso
+# Check Syntax
+decoder.stx
+# XST (Creating Lso File) : 
+ram.lso
+# Check Syntax
+ram.stx
+sr_latch.ngc
+# xst flow : RunXST
+ram_summary.html
+# xst flow : RunXST
+ram.syr
+ram.prj
+ram.sprj
+ram.ana
+ram.stx
+ram.cmd_log
+sr_latch.ngc
+sr_latch.ngr
+ram.ngr
+# View RTL Schematic
+ram.ngr
+ram.ngc
+# ModelSim : Launch ModelSim Simulator
+ram.ldo
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# ModelSim : Launch ModelSim Simulator
+vsim.wlf
+# xst flow : RunXST
+ram_summary.html
+# xst flow : RunXST
+ram.syr
+ram.prj
+ram.sprj
+ram.ana
+ram.stx
+ram.cmd_log
+sr_latch.ngc
+ram.ngc
+sr_latch.ngr
+ram.ngr
+# View Technology Schematic
+ram.ngr
+ram.ngc

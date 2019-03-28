@@ -1,0 +1,4 @@
+vhdl work "decoder.vhd"
+vhdl work "sr_latch.vhd"
+vhdl work "binary_cell.vhd"
+vhdl work "RAM.vhd"

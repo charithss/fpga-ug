@@ -1,0 +1,4 @@
+set -tmpdir .
+elaborate
+-ifn decoder.prj
+-ifmt mixed

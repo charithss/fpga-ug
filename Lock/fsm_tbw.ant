@@ -1,0 +1,173 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.2i
+//  \   \         Application : ISE
+//  /   /         Filename : fsm_tbw.ant
+// /___/   /\     Timestamp : Sun Feb 04 17:38:54 2007
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: fsm_tbw
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module fsm_tbw;
+    reg decode_in = 1'b0;
+    reg program = 1'b0;
+    reg enter = 1'b0;
+    reg reset = 1'b0;
+    reg CLK = 1'b0;
+    wire [1:0] code_no;
+    wire enable;
+    wire error;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 0;
+
+    initial    // Clock process for CLK
+    begin
+        #OFFSET;
+        forever
+        begin
+            CLK = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) CLK = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    main_fsm UUT (
+        .decode_in(decode_in),
+        .program(program),
+        .enter(enter),
+        .reset(reset),
+        .CLK(CLK),
+        .code_no(code_no),
+        .enable(enable),
+        .error(error));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process for clock CLK
+        #0;
+        ANNOTATE_code_no;
+        ANNOTATE_enable;
+        ANNOTATE_error;
+        #OFFSET;
+        forever begin
+            #115;
+            ANNOTATE_code_no;
+            ANNOTATE_enable;
+            ANNOTATE_error;
+            #85;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Documents and Settings\\Charith Fernando\\Desktop\\Lock\\fsm_tbw.ano");
+        #3200 // Final time:  3200 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  85ns
+        #85;
+        decode_in = 1'b1;
+        enter = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  285ns
+        #200;
+        decode_in = 1'b0;
+        enter = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  485ns
+        #200;
+        decode_in = 1'b1;
+        enter = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  685ns
+        #200;
+        decode_in = 1'b0;
+        enter = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  885ns
+        #200;
+        decode_in = 1'b1;
+        enter = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1085ns
+        #200;
+        decode_in = 1'b0;
+        enter = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  1285ns
+        #200;
+        program = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1485ns
+        #200;
+        enter = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1685ns
+        #200;
+        enter = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  1885ns
+        #200;
+        enter = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2085ns
+        #200;
+        enter = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  2285ns
+        #200;
+        enter = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  2485ns
+        #200;
+        enter = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  2685ns
+        #200;
+        reset = 1'b1;
+        // -------------------------------------
+    end
+
+    task ANNOTATE_code_no;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,code_no,%b]", $time, code_no);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_enable;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,enable,%b]", $time, enable);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_error;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,error,%b]", $time, error);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

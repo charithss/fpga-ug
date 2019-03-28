@@ -1,0 +1,32 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\user\Desktop\SP_mini_VHDL
+Esr_latch
+w1153807848
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Fsr_latch.vhd
+l0
+L30
+VXl?@1[W66K2dJ_eRIeh8d0
+OX;C;6.0d;29
+31
+o-93 -explicit -O0
+tExplicit 1 GenerateLoopIterationMax 100000
+Adata_flow
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work sr_latch Xl?@1[W66K2dJ_eRIeh8d0
+l39
+L37
+VmON<`RNKbP7<DUm>d1R^10
+OX;C;6.0d;29
+31
+M3 ieee std_logic_1164
+M2 ieee std_logic_arith
+M1 ieee std_logic_unsigned
+o-93 -explicit -O0
+tExplicit 1 GenerateLoopIterationMax 100000

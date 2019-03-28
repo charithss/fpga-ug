@@ -1,0 +1,9 @@
+V2 3
+FL "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" 2006/07/25.15:51:54 H.38
+EN work/SR_LATCH 1153813996 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/SR_LATCH/BEHAV 1153813997 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_VHDL/sr_latch.vhd" \
+      EN work/SR_LATCH 1153813996

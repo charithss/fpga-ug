@@ -1,0 +1,6 @@
+# begin LFP file C:\Documents and Settings\user\Desktop\SP_mini_VHDL\sr_latch.lfp
+designfile sr_latch.vhd
+parttype xc3s400-4-pq208
+bus_delimiter 0;
+set_busdelim_onsave 1;
+INST "sr_latch" COLOR=15  ;

@@ -1,0 +1,97 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 8.2i
+//  \   \         Application : ISE
+//  /   /         Filename : store_tbw.ant
+// /___/   /\     Timestamp : Sun Feb 04 18:33:30 2007
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: store_tbw
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module store_tbw;
+    reg [2:0] codein = 3'b000;
+    reg [1:0] code_no = 2'b11;
+    reg program = 1'b0;
+    wire compare;
+
+
+    comparator_store UUT (
+        .codein(codein),
+        .code_no(code_no),
+        .program(program),
+        .compare(compare));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_compare;
+        forever begin
+            #50;
+            ANNOTATE_compare;
+            #50;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Documents and Settings\\Charith Fernando\\Desktop\\Lock\\store_tbw.ano");
+        #1000 // Final time:  1000 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  100ns
+        #100;
+        codein = 3'b001;
+        code_no = 2'b00;
+        // -------------------------------------
+        // -------------  Current Time:  200ns
+        #100;
+        codein = 3'b000;
+        code_no = 2'b11;
+        // -------------------------------------
+        // -------------  Current Time:  300ns
+        #100;
+        codein = 3'b010;
+        code_no = 2'b01;
+        // -------------------------------------
+        // -------------  Current Time:  400ns
+        #100;
+        codein = 3'b000;
+        code_no = 2'b11;
+        // -------------------------------------
+        // -------------  Current Time:  500ns
+        #100;
+        codein = 3'b110;
+        code_no = 2'b10;
+        // -------------------------------------
+        // -------------  Current Time:  600ns
+        #100;
+        codein = 3'b000;
+        code_no = 2'b00;
+    end
+
+    task ANNOTATE_compare;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,compare,%b]", $time, compare);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

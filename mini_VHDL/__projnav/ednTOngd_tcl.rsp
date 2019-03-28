@@ -1,0 +1,3 @@
+set ADucfFile {sr_latch.ucf}
+set ADbmmFile {}
+set ADcdcFile {}

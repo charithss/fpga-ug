@@ -1,0 +1,31 @@
+V2 15
+FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" 2006/07/26.17:50:02 H.38
+EN work/RAM 1153908092             FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/RAM/DATA_FLOW 1153908093 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" EN work/RAM 1153908092 \
+      CP DECODER        CP BINARY_CELL
+FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" 2006/07/26.17:27:04 H.38
+EN work/DECODER 1153908088         FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/DECODER/DATA_FLOW 1153908089 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" \
+      EN work/DECODER 1153908088
+FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" 2006/07/26.17:15:54 H.38
+EN work/BINARY_CELL 1153908090 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/BINARY_CELL/DATA_FLOW 1153908091 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" \
+      EN work/BINARY_CELL 1153908090 CP SR_LATCH
+FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" 2006/07/26.16:59:00 H.38
+EN work/SR_LATCH 1153908086 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" \
+      PB ieee/STD_LOGIC_1164 1106404628 PB ieee/STD_LOGIC_ARITH 1106404630 \
+      PB ieee/STD_LOGIC_UNSIGNED 1106404634
+AR work/SR_LATCH/DATA_FLOW 1153908087 \
+      FL "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" \
+      EN work/SR_LATCH 1153908086

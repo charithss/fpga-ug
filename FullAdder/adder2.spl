@@ -1,0 +1,8 @@
+[Inputs]
+Ci
+=A[1:0]=
+=B[1:0]=
+[Outputs]
+Co
+=S[1:0]=
+[BiDir]

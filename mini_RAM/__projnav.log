@@ -1,0 +1,538 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+ERROR:HDLParsers:1411 - "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" Line 40. Parameter Q of mode out can not be associated with a formal parameter of mode in.
+ERROR: XST failed
+Process "Check Syntax" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <data_flow>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sr_latch> (Architecture <data_flow>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd".
+Unit <sr_latch> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <data_flow>) compiled.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sr_latch> (Architecture <data_flow>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd".
+Unit <sr_latch> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit sr_latch : the following signal(s) form a combinatorial loop: _n0001.
+
+Optimizing unit <sr_latch> ...
+Loading device for application Rf_Device from file '3s400.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sr_latch, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       1  out of   3584     0%  
+ Number of 4 input LUTs:                 2  out of   7168     0%  
+ Number of bonded IOBs:                  3  out of    141     2%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 9.219ns
+
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Entity <sr_latch> compiled.
+Entity <sr_latch> (Architecture <data_flow>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" in Library work.
+Entity <decoder> compiled.
+Entity <decoder> (Architecture <data_flow>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Check Syntax".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" in Library work.
+Architecture data_flow of Entity decoder is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" in Library work.
+Entity <binary_cell> compiled.
+Entity <binary_cell> (Architecture <data_flow>) compiled.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" in Library work.
+Entity <RAM> compiled.
+Entity <RAM> (Architecture <data_flow>) compiled.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View RTL Schematic".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" in Library work.
+Architecture data_flow of Entity decoder is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" in Library work.
+Architecture data_flow of Entity binary_cell is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" in Library work.
+Architecture data_flow of Entity ram is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ram> (Architecture <data_flow>).
+Entity <ram> analyzed. Unit <ram> generated.
+
+Analyzing Entity <decoder> (Architecture <data_flow>).
+Entity <decoder> analyzed. Unit <decoder> generated.
+
+Analyzing Entity <binary_cell> (Architecture <data_flow>).
+Entity <binary_cell> analyzed. Unit <binary_cell> generated.
+
+Analyzing Entity <sr_latch> (Architecture <data_flow>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd".
+Unit <sr_latch> synthesized.
+
+
+Synthesizing Unit <binary_cell>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd".
+Unit <binary_cell> synthesized.
+
+
+Synthesizing Unit <decoder>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd".
+Unit <decoder> synthesized.
+
+
+Synthesizing Unit <ram>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd".
+Unit <ram> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd" in Library work.
+Architecture data_flow of Entity sr_latch is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd" in Library work.
+Architecture data_flow of Entity decoder is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd" in Library work.
+Architecture data_flow of Entity binary_cell is up to date.
+Compiling vhdl file "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd" in Library work.
+Architecture data_flow of Entity ram is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ram> (Architecture <data_flow>).
+Entity <ram> analyzed. Unit <ram> generated.
+
+Analyzing Entity <decoder> (Architecture <data_flow>).
+Entity <decoder> analyzed. Unit <decoder> generated.
+
+Analyzing Entity <binary_cell> (Architecture <data_flow>).
+Entity <binary_cell> analyzed. Unit <binary_cell> generated.
+
+Analyzing Entity <sr_latch> (Architecture <data_flow>).
+Entity <sr_latch> analyzed. Unit <sr_latch> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sr_latch>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/sr_latch.vhd".
+Unit <sr_latch> synthesized.
+
+
+Synthesizing Unit <binary_cell>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/binary_cell.vhd".
+Unit <binary_cell> synthesized.
+
+
+Synthesizing Unit <decoder>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/decoder.vhd".
+Unit <decoder> synthesized.
+
+
+Synthesizing Unit <ram>.
+    Related source file is "C:/Documents and Settings/user/Desktop/SP_mini_RAM/RAM.vhd".
+Unit <ram> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc0_0/SRL1/_n0001.
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc1_1/SRL1/_n0001.
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc1_0/SRL1/_n0001.
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc2_0/SRL1/_n0001.
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc3_1/SRL1/_n0001.
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc3_0/SRL1/_n0001.
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc2_1/SRL1/_n0001.
+WARNING:Xst:2170 - Unit ram : the following signal(s) form a combinatorial loop: bc0_1/SRL1/_n0001.
+
+Optimizing unit <ram> ...
+Loading device for application Rf_Device from file '3s400.nph' in environment C:/Program Files/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ram, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400pq208-5 
+
+ Number of Slices:                       9  out of   3584     0%  
+ Number of 4 input LUTs:                16  out of   7168     0%  
+ Number of bonded IOBs:                  7  out of    141     4%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 11.116ns
+
+=========================================================================
+

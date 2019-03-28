@@ -1,0 +1,3 @@
+MODULE fsm_tbw
+SUBMODULE main_fsm
+INSTANCE UUT

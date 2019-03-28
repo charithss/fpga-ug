@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map H.38 on Tue Jul 25 15:53:59 2006
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Q_bar" LOCATE = SITE "P20" LEVEL 1;
+COMP "Q" LOCATE = SITE "P21" LEVEL 1;
+COMP "R" LOCATE = SITE "P24" LEVEL 1;
+COMP "S" LOCATE = SITE "P22" LEVEL 1;
+NET "R_BUFGP/IBUFG" BEL "R_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;

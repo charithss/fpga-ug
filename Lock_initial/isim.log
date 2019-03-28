@@ -1,0 +1,38 @@
+ command line:
+   ./Comparatorstore_tbw_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1278
+
+Sat Feb 03 07:58:56 2007
+
+Total Line Count = 93
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 35.0372 Meg. 
+
+ Total signals 22
+ Total nets 26
+ Total signal drivers 12
+ Total blocks 7
+ Total primitive blocks 5
+ Total processes 17
+ntrace select -o on -n /Comparatorstore_tbw/compare 
+ntrace select -o on -n /Comparatorstore_tbw/compare 
+ntrace select -o on -n /Comparatorstore_tbw/compare 
+ntrace select -o on -n /Comparatorstore_tbw/compare 
+ntrace select -o on -n /Comparatorstore_tbw/code_no 
+ntrace select -o on -n /Comparatorstore_tbw/code_no 
+ntrace select -o on -n /Comparatorstore_tbw/code_no 
+ntrace select -o on -n /Comparatorstore_tbw/program 
+ntrace select -o on -n /Comparatorstore_tbw/codein 
+ntrace select -o on -n /Comparatorstore_tbw/codein 
+ntrace select -o on -n /Comparatorstore_tbw/codein 
+ntrace select -o on -n /Comparatorstore_tbw/codein 
+ntrace select -o on -n /Comparatorstore_tbw/TX_FILE 
+ntrace select -o on -n /Comparatorstore_tbw/TX_ERROR 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

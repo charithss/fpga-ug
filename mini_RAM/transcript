@@ -1,0 +1,67 @@
+# Reading C:/Program Files/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do ram.ldo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vcom 6.0d Compiler 2005.04 Apr 26 2005
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity decoder
+# -- Compiling architecture data_flow of decoder
+# Model Technology ModelSim XE III vcom 6.0d Compiler 2005.04 Apr 26 2005
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity sr_latch
+# -- Compiling architecture data_flow of sr_latch
+# ** Warning: [4] sr_latch.vhd(40): A space is required between a number and an identifier.
+# ** Warning: [4] sr_latch.vhd(41): A space is required between a number and an identifier.
+# Model Technology ModelSim XE III vcom 6.0d Compiler 2005.04 Apr 26 2005
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity binary_cell
+# -- Compiling architecture data_flow of binary_cell
+# Model Technology ModelSim XE III vcom 6.0d Compiler 2005.04 Apr 26 2005
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity ram
+# -- Compiling architecture data_flow of ram
+# vsim -t 1ps ram 
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../std.standard
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../ieee.std_logic_1164(body)
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../ieee.std_logic_arith(body)
+# Loading c:\program files\Modeltech_xe_starter\win32xoem/../ieee.std_logic_unsigned(body)
+# Loading work.ram(data_flow)
+# Loading work.decoder(data_flow)
+# Loading work.binary_cell(data_flow)
+# Loading work.sr_latch(data_flow)
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+force -freeze sim:/ram/a0 0 0
+force -freeze sim:/ram/a1 0 0
+force -freeze sim:/ram/rw 0 0
+force -freeze sim:/ram/d_in0 0 0
+force -freeze sim:/ram/d_in1 0 0
+run -all
+force -freeze sim:/ram/a0 1 0
+force -freeze sim:/ram/d_in0 1 0
+run -all
+force -freeze sim:/ram/a1 1 0
+force -freeze sim:/ram/a0 0 0
+force -freeze sim:/ram/d_in1 1 0
+force -freeze sim:/ram/d_in0 0 0
+run -all
+force -freeze sim:/ram/a0 1 0
+force -freeze sim:/ram/d_in0 1 0
+run -all
+force -freeze sim:/ram/rw 1 0
+force -freeze sim:/ram/a0 0 0
+run -all
+force -freeze sim:/ram/a0 1 0
+run -all

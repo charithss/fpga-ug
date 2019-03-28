@@ -1,0 +1,24 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd "c:\documents and
+settings\user\desktop\sp_mini_vhdl/_ngo" -uc sr_latch.ucf -p xc3s400-pq208-4
+sr_latch.ngc sr_latch.ngd 
+
+Reading NGO file 'C:/Documents and
+Settings/user/Desktop/SP_mini_VHDL/sr_latch.ngc' ...
+
+Applying constraints in "sr_latch.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 63564 kilobytes
+
+Writing NGD file "sr_latch.ngd" ...
+
+Writing NGDBUILD log file "sr_latch.bld"...

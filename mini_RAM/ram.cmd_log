@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn __projnav/ram.xst -ofn ram.syr
+xst -intstyle ise -ifn __projnav/ram.xst -ofn ram.syr

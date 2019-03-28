@@ -1,0 +1,31 @@
+ command line:
+   ./store_tbw_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  1357
+
+Sun Feb 04 18:33:38 2007
+
+Total Line Count = 98
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 35.0454 Meg. 
+
+ Total signals 16
+ Total nets 18
+ Total signal drivers 8
+ Total blocks 5
+ Total primitive blocks 3
+ Total processes 14
+ntrace select -o on -n /store_tbw/compare 
+ntrace select -o on -n /store_tbw/code_no 
+ntrace select -o on -n /store_tbw/program 
+ntrace select -o on -n /store_tbw/codein 
+ntrace select -o on -n /store_tbw/UUT/codestore0 
+ntrace select -o on -n /store_tbw/UUT/codestore1 
+ntrace select -o on -n /store_tbw/UUT/codestore2 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
